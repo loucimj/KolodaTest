@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE31FE39BDA31CA609669B8 /* Pods_KolodaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1FC57D2E2D7ED48F75BB61 /* Pods_KolodaTest.framework */; };
 		418653401DB2734B0059DEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186533F1DB2734B0059DEE2 /* AppDelegate.swift */; };
 		418653421DB2734B0059DEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418653411DB2734B0059DEE2 /* ViewController.swift */; };
 		418653451DB2734B0059DEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418653431DB2734B0059DEE2 /* Main.storyboard */; };
 		418653471DB2734B0059DEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418653461DB2734B0059DEE2 /* Assets.xcassets */; };
 		4186534A1DB2734B0059DEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418653481DB2734B0059DEE2 /* LaunchScreen.storyboard */; };
+		418653541DB291730059DEE2 /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418653531DB291730059DEE2 /* FrontView.swift */; };
+		418653561DB2917F0059DEE2 /* FrontView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418653551DB2917F0059DEE2 /* FrontView.xib */; };
+		418653581DB292F10059DEE2 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418653571DB292F10059DEE2 /* NibLoadable.swift */; };
+		4186535A1DB293440059DEE2 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418653591DB293440059DEE2 /* ReusableView.swift */; };
+		4186535C1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186535B1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift */; };
+		4186535E1DB315D00059DEE2 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186535D1DB315D00059DEE2 /* BackView.swift */; };
+		418653601DB315DF0059DEE2 /* BackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4186535F1DB315DF0059DEE2 /* BackView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CD23D515EC188F45E5A81AF /* Pods-KolodaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolodaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KolodaTest/Pods-KolodaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		4186533C1DB2734B0059DEE2 /* KolodaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KolodaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4186533F1DB2734B0059DEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		418653411DB2734B0059DEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		418653461DB2734B0059DEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418653491DB2734B0059DEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4186534B1DB2734B0059DEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418653531DB291730059DEE2 /* FrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
+		418653551DB2917F0059DEE2 /* FrontView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontView.xib; sourceTree = "<group>"; };
+		418653571DB292F10059DEE2 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		418653591DB293440059DEE2 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		4186535B1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewExtension+Reusable+NibLoadable.swift"; sourceTree = "<group>"; };
+		4186535D1DB315D00059DEE2 /* BackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		4186535F1DB315DF0059DEE2 /* BackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackView.xib; sourceTree = "<group>"; };
+		4F1FC57D2E2D7ED48F75BB61 /* Pods_KolodaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KolodaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37486ACC0F89C21EA66A8D /* Pods-KolodaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolodaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KolodaTest/Pods-KolodaTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE31FE39BDA31CA609669B8 /* Pods_KolodaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				4186533E1DB2734B0059DEE2 /* KolodaTest */,
 				4186533D1DB2734B0059DEE2 /* Products */,
+				F3C6C8E6FFAB6C5CD1285E39 /* Pods */,
+				89E31A125E850DD555BC3002 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +81,40 @@
 				418653461DB2734B0059DEE2 /* Assets.xcassets */,
 				418653481DB2734B0059DEE2 /* LaunchScreen.storyboard */,
 				4186534B1DB2734B0059DEE2 /* Info.plist */,
+				418653531DB291730059DEE2 /* FrontView.swift */,
+				418653551DB2917F0059DEE2 /* FrontView.xib */,
+				4186535D1DB315D00059DEE2 /* BackView.swift */,
+				4186535F1DB315DF0059DEE2 /* BackView.xib */,
+				418653611DB316A60059DEE2 /* Protocols */,
 			);
 			path = KolodaTest;
+			sourceTree = "<group>";
+		};
+		418653611DB316A60059DEE2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				418653571DB292F10059DEE2 /* NibLoadable.swift */,
+				418653591DB293440059DEE2 /* ReusableView.swift */,
+				4186535B1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		89E31A125E850DD555BC3002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1FC57D2E2D7ED48F75BB61 /* Pods_KolodaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C6C8E6FFAB6C5CD1285E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CD23D515EC188F45E5A81AF /* Pods-KolodaTest.debug.xcconfig */,
+				EA37486ACC0F89C21EA66A8D /* Pods-KolodaTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4186534E1DB2734B0059DEE2 /* Build configuration list for PBXNativeTarget "KolodaTest" */;
 			buildPhases = (
+				C228FC03020E6934AADCAB66 /* [CP] Check Pods Manifest.lock */,
 				418653381DB2734B0059DEE2 /* Sources */,
 				418653391DB2734B0059DEE2 /* Frameworks */,
 				4186533A1DB2734B0059DEE2 /* Resources */,
+				09A05439DA967E366CFB89DD /* [CP] Embed Pods Frameworks */,
+				9876C2005515FBAD689A0C18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +182,61 @@
 			files = (
 				4186534A1DB2734B0059DEE2 /* LaunchScreen.storyboard in Resources */,
 				418653471DB2734B0059DEE2 /* Assets.xcassets in Resources */,
+				418653561DB2917F0059DEE2 /* FrontView.xib in Resources */,
+				418653601DB315DF0059DEE2 /* BackView.xib in Resources */,
 				418653451DB2734B0059DEE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A05439DA967E366CFB89DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KolodaTest/Pods-KolodaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9876C2005515FBAD689A0C18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KolodaTest/Pods-KolodaTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C228FC03020E6934AADCAB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		418653381DB2734B0059DEE2 /* Sources */ = {
@@ -138,7 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				418653421DB2734B0059DEE2 /* ViewController.swift in Sources */,
+				4186535A1DB293440059DEE2 /* ReusableView.swift in Sources */,
+				418653581DB292F10059DEE2 /* NibLoadable.swift in Sources */,
 				418653401DB2734B0059DEE2 /* AppDelegate.swift in Sources */,
+				4186535C1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift in Sources */,
+				418653541DB291730059DEE2 /* FrontView.swift in Sources */,
+				4186535E1DB315D00059DEE2 /* BackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +321,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -251,12 +363,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		4186534F1DB2734B0059DEE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD23D515EC188F45E5A81AF /* Pods-KolodaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ASBF7RHVV8;
@@ -270,6 +384,7 @@
 		};
 		418653501DB2734B0059DEE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA37486ACC0F89C21EA66A8D /* Pods-KolodaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ASBF7RHVV8;
@@ -300,6 +415,7 @@
 				418653501DB2734B0059DEE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
