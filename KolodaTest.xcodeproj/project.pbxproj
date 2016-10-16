@@ -20,6 +20,8 @@
 		4186535C1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186535B1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift */; };
 		4186535E1DB315D00059DEE2 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4186535D1DB315D00059DEE2 /* BackView.swift */; };
 		418653601DB315DF0059DEE2 /* BackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4186535F1DB315DF0059DEE2 /* BackView.xib */; };
+		418653631DB31FD00059DEE2 /* LaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418653621DB31FD00059DEE2 /* LaterView.swift */; };
+		418653651DB31FDC0059DEE2 /* LaterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418653641DB31FDC0059DEE2 /* LaterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		4186535B1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewExtension+Reusable+NibLoadable.swift"; sourceTree = "<group>"; };
 		4186535D1DB315D00059DEE2 /* BackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
 		4186535F1DB315DF0059DEE2 /* BackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackView.xib; sourceTree = "<group>"; };
+		418653621DB31FD00059DEE2 /* LaterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaterView.swift; sourceTree = "<group>"; };
+		418653641DB31FDC0059DEE2 /* LaterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaterView.xib; sourceTree = "<group>"; };
 		4F1FC57D2E2D7ED48F75BB61 /* Pods_KolodaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KolodaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA37486ACC0F89C21EA66A8D /* Pods-KolodaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KolodaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KolodaTest/Pods-KolodaTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +90,8 @@
 				4186535D1DB315D00059DEE2 /* BackView.swift */,
 				4186535F1DB315DF0059DEE2 /* BackView.xib */,
 				418653611DB316A60059DEE2 /* Protocols */,
+				418653621DB31FD00059DEE2 /* LaterView.swift */,
+				418653641DB31FDC0059DEE2 /* LaterView.xib */,
 			);
 			path = KolodaTest;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 				418653561DB2917F0059DEE2 /* FrontView.xib in Resources */,
 				418653601DB315DF0059DEE2 /* BackView.xib in Resources */,
 				418653451DB2734B0059DEE2 /* Main.storyboard in Resources */,
+				418653651DB31FDC0059DEE2 /* LaterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +255,7 @@
 				418653581DB292F10059DEE2 /* NibLoadable.swift in Sources */,
 				418653401DB2734B0059DEE2 /* AppDelegate.swift in Sources */,
 				4186535C1DB293ED0059DEE2 /* UITableViewExtension+Reusable+NibLoadable.swift in Sources */,
+				418653631DB31FD00059DEE2 /* LaterView.swift in Sources */,
 				418653541DB291730059DEE2 /* FrontView.swift in Sources */,
 				4186535E1DB315D00059DEE2 /* BackView.swift in Sources */,
 			);
